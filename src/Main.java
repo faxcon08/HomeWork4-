@@ -61,6 +61,20 @@ public class Main {
         else
             System.out.println("Ребенок ходит в детский сад или сидит дома");
 
+        // Sixth Task or 2.3
+        System.out.println(ANSI_GREEN+"Sixth Task or 2.3"+ANSI_RESET);
+
+        currentPlace = 103;
+
+        if (currentPlace>=wagonCapacity){
+            System.out.println("В вагоне нет мест");
+        }
+       else {
+            if(currentPlace<sittingPlaces)
+                System.out.println("В вагоне есть сидячие места");
+            else
+                System.out.println("В Вагне есть стоячие места");
+        }// else
 
     } // main
 } // class Main
