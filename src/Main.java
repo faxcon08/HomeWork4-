@@ -76,5 +76,31 @@ public class Main {
                 System.out.println("В Вагне есть стоячие места");
         }// else
 
+        // Seventh Task or 3.1
+        System.out.println(ANSI_GREEN+"Seventh Task or 3.1"+ANSI_RESET);
+        Age = 25;
+        boolean goToKinderGarten = Age >2 && Age<=6;
+        boolean goToSchool = Age >= 7 && Age < 18;
+        boolean goToUniversity = Age > 18 && Age <=24;
+        boolean goToWork = Age > 24;
+
+        if(goToKinderGarten){
+            System.out.println("Если возраст человека равен "+Age+" , то ему нужно ходить в детский сад");
+        } else if(goToSchool){
+            System.out.println("Если возраст человека равен "+Age+" , то ему нужно ходить в школу");
+        } else  if (goToUniversity){
+            System.out.println("Если возраст человека равен "+Age+" , то ему нужно ходить в университет");
+        } else if(goToWork){
+            System.out.println("Если возраст человека равен "+Age+" , то ему нужно ходить на работу");
+        } else
+            System.out.println("Если возраст человека равен "+Age+" , то он слишком мал");
+
+
+        // Eighth Task or 3.2
+        System.out.println(ANSI_GREEN+"Eighth Task or 3.2"+ANSI_RESET);
+
+        // Ninth Task or 3.3
+        System.out.println(ANSI_GREEN+"Ninth Task or 3.3"+ANSI_RESET);
+
     } // main
 } // class Main
