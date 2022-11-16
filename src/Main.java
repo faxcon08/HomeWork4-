@@ -39,5 +39,13 @@ public class Main {
             if(currentPlace>=sittingPlaces)
                 System.out.println("В Вагне есть стоячие места");
         }
+
+        // Fourth Task or 2.1
+        System.out.println(ANSI_GREEN+"Fourth Task or 2.1"+ANSI_RESET);
+        Age = 18;
+        if(Age>=18)
+            System.out.println("Поздравляем с совершеннолетием");
+        else
+            System.out.println("Вы еще не достигли совершеннолетия, нужно немного подождать");
     }
 }
