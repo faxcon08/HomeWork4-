@@ -47,5 +47,20 @@ public class Main {
             System.out.println("Поздравляем с совершеннолетием");
         else
             System.out.println("Вы еще не достигли совершеннолетия, нужно немного подождать");
-    }
-}
+
+        // Fifth Task or 2.2
+        System.out.println(ANSI_GREEN+"Fifth Task or 2.2"+ANSI_RESET);
+        Age2 = 19;
+
+        if(Age2>=24)
+            System.out.println("Человек окончил университет и пора искать работу");
+        else if(Age2>=18)
+            System.out.println("Человек закончил школу и может отправляться в университет");
+        else if(Age2>=7)
+            System.out.println("Ребенок ходит в школу");
+        else
+            System.out.println("Ребенок ходит в детский сад или сидит дома");
+
+
+    } // main
+} // class Main
