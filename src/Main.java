@@ -26,5 +26,18 @@ public class Main {
 
         // Third Task
         System.out.println(ANSI_GREEN+"Third Task"+ANSI_RESET);
+        int wagonCapacity = 102;
+        int sittingPlaces = 60;
+        int currentPlace = 59;
+
+        if (currentPlace>=wagonCapacity){
+            System.out.println("В вагоне нет мест");
+        }
+        if(currentPlace<wagonCapacity){
+            if(currentPlace<sittingPlaces)
+                System.out.println("В вагоне есть сидячие места");
+            if(currentPlace>=sittingPlaces)
+                System.out.println("В Вагне есть стоячие места");
+        }
     }
 }
