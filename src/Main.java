@@ -98,6 +98,13 @@ public class Main {
 
         // Eighth Task or 3.2
         System.out.println(ANSI_GREEN+"Eighth Task or 3.2"+ANSI_RESET);
+        int Age3 = 21;
+        if(Age3<5)
+            System.out.println("Ребенок не может кататься на аттракционе");
+        else if(Age3>=5 && Age3<=14)
+            System.out.println("Ребенок может кататься на аттракционе только в сопровождении взрослого");
+        else
+            System.out.println("Ребенок может кататься без сопровождения взрослого");
 
         // Ninth Task or 3.3
         System.out.println(ANSI_GREEN+"Ninth Task or 3.3"+ANSI_RESET);
