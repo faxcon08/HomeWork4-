@@ -108,6 +108,17 @@ public class Main {
 
         // Ninth Task or 3.3
         System.out.println(ANSI_GREEN+"Ninth Task or 3.3"+ANSI_RESET);
+        int one = 101;
+        int two = 1011;
+        int three = 1000;
+
+        System.out.print("Максимальное число: ");
+        if(one >= two && one >= three){
+            System.out.println(one);
+        } else if (two >= one && two >=three)
+            System.out.println(two);
+        else
+            System.out.println(three);
 
     } // main
 } // class Main
